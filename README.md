@@ -2,6 +2,10 @@
 
 Este projeto foi desenvolvido como parte da disciplina de Banco de Dados I do curso de Análise e Desenvolvimento de Sistemas. O projeto abrange o levantamento de requisitos, a modelagem do banco de dados, consultas SQL, mapeamento entidade-relacionamento e scripts de criação e povoamento de tabelas.
 
+Este projeto foi desenvolvido utilizando o sistema de gerenciamento de banco de dados relacional PostgreSQL.
+
+**Nota:** Certifique-se de ter o PostgreSQL instalado e configurado ou outro SGBD relacional para executar esses scripts com sucesso.
+
 ## Estrutura do Projeto
 
 - Levantamento de Requisitos
@@ -60,8 +64,7 @@ estará disponível e o livro solicitado
 
 ## Diagrama Entidade-Relacionamento (DER)
 
-![Diagrama Entidade-Relacionamento](link_para_a_imagem_do_DER.png)
-Explicação sobre o DER e suas entidades principais.
+<img src="./images/dr-modelo.png" alt="Diagrama Entidade-Relacionamento" width="400"></img>
 
 ## Mapeamento Lógico
 
@@ -84,10 +87,16 @@ O modelo lógico do banco de dados inclui as seguintes entidades:
 - Atraso_Livro(codAtraso, codLivro)
 - Doação_Livro (CodDoação. CodLivro)
 
-## Descrição das Consultas
+## Contribuição
 
-Aqui estão algumas das consultas SQL que podem ser realizadas no banco de dados:
+Se você deseja contribuir com este projeto, siga as diretrizes abaixo:
 
-1. **Consulta Exemplo 1:** Descrição da consulta e explicação do resultado.
-   ```sql
-   SELECT * FROM tabela WHERE condição;
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua contribuição: `git checkout -b sua-feature`.
+3. Faça suas modificações e teste-as.
+4. Envie um pull request para a branch principal.
+
+Certifique-se de seguir as melhores práticas de desenvolvimento e manter a consistência com o estilo de código existente. Se possível, inclua uma descrição detalhada das mudanças que você fez e por que elas são relevantes para o projeto.
+
+
+
