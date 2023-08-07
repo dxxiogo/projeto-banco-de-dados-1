@@ -61,10 +61,42 @@ possível que o usuário peça uma reserva para aquele livro. Na reserva deve te
 o usuário que solicitou, a data de solicitação, o status, a data em que o livro
 estará disponível e o livro solicitado
 
+## Descrição das Consultas
+
+Aqui estão algumas consultas SQL que podem ser realizadas no banco de dados:
+
+- Obter todas as informações de um livro, incluindo o gênero da categoria e o
+número do bloco em que ela está associada
+- Obter a quantidade total de livros emprestados por categoria:
+- Listar o título, o código e o autor de todos os livros que não possuem editoras,
+mas possuem uma data de publicação e ordenar por ordem decrescente do
+autor
+- Listar todas as informações das devoluções em que o status é de concluída e
+que possuem alguma observação
+- Listar livros em que o sobrenome do autor possua uma determinada sequência
+de caracteres, em ordem crescente do autor.
+- Obter bibliotecários em que o número do telefone que iniciam com uma
+determinada sequência de dígitos
+- Obter o nome e o cpf dos usuários que possuem e pelo menos dois livros
+emprestados e ordenar por ordem decrescente do nome
+- Obter todas as informações de usuários com multas pendentes
+- Obter todas as devoluções recebidas por um determinado bibliotecário
+- Obter todas as doações feitas por usuários que já realizaram um empréstimo:
+- Obter todos os usuários que que realizaram pelo menos uma doação e não
+possuem nenhum registro de atraso
+- Obter os livros que foram emprestados, mas não foram reservados
+- Obter a média salarial de todos os funcionários que não são bibliotecários
+- Obter a soma da quantidade de todos os livros doados recebidos na biblioteca
+- Obter o código, o gênero e a quantidade de livros que estão associados a cada
+categoria
+- Obter o nome, cpf e a quantidade de empréstimos realizados pelos usuários
+que possuem status de pendente em que a quantidade é superior a 1
 
 ## Diagrama Entidade-Relacionamento (DER)
 
-<img src="./images/dr-modelo.png" alt="Diagrama Entidade-Relacionamento" width="400"></img>
+O diagrama Entidade-Relacionamento (DER) foi construído utilizando o software brModelo. O DER representa visualmente a estrutura das entidades e seus relacionamentos no banco de dados.
+
+<img src="./images/dr-modelo.png" alt="Diagrama Entidade-Relacionamento" width="900"></img>
 
 ## Mapeamento Lógico
 
